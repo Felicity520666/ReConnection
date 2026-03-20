@@ -35,7 +35,7 @@ label start:
     show lb at smallright
     with dissolve
     l "You are new so maybe you aren't aware, but we NPCs in {i}this game{/i} actually all have our own consciousness!"
-    l "But... we can't show it. We can never let the players notice!"
+    l "But... we can't show it. We can {b}never let the players notice{/b}!"
 
 
     

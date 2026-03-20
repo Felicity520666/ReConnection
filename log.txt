@@ -1,31 +1,32 @@
-2026-03-14 10:33:42 UTC
+2026-03-20 18:31:13 UTC
 macOS-15.7.3-arm64-arm-64bit
 Ren'Py 8.4.1.25072401
 
-Early init took 22 ms
-Loading error handling took 16 ms
-Loading script took 44 ms
-Loading save slot metadata took 8 ms
+Early init took 17 ms
+Loading error handling took 11 ms
+Loading script took 49 ms
+Loading save slot metadata took 7 ms
 Loading persistent took 0 ms
-Running init code took 18 ms
-Loading analysis data took 2 ms
+Running init code took 15 ms
+Loading analysis data took 1 ms
 Analyze and compile ATL took 0 ms
-Reloading save slot metadata took 0 ms
-Dump and make backups took 15 ms
+Reloading save slot metadata took 1 ms
+Backing up script files to '/Users/felicity/Library/RenPy/backups/ReConnection':
+Dump and make backups took 13 ms
 Cleaning cache took 0 ms
 Making clean stores took 0 ms
-Initial gc took 14 ms
+Initial gc took 12 ms
 DPI scale factor: 1.000000
 Creating interface object took 0 ms
 Init translation took 0 ms
 Cleaning stores took 0 ms
-Load screen analysis took 7 ms
-Analyze screens took 0 ms
-Save screen analysis took 0 ms
+Load screen analysis took 0 ms
+Analyze screens took 3 ms
+Save screen analysis took 4 ms
 Save pyanalysis took 0 ms
-Save bytecode took 0 ms
+Save bytecode took 11 ms
 Running _start took 0 ms
-Interface start took 283 ms
+Interface start took 188 ms
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1470, 956)
@@ -37,4 +38,7 @@ Version: '2.1 Metal - 89.4'
 Display Info: <Info({'bitsize': 32, 'bytesize': 4, 'masks': (16711680, 65280, 255, 4278190080), 'shifts': (16, 8, 0, 24), 'losses': (0, 0, 0, 0), 'current_w': 1470, 'current_h': 956, 'refresh_rate': 60, 'hw': False, 'wm': True, 'video_mem': 268435456, 'blit_hw': False, 'blit_hw_CC': False, 'blit_hw_A': False, 'blit_sw': False, 'blit_sw_CC': False, 'blit_sw_A': False})>
 Screen sizes: virtual=(1920, 1080) physical=(1368, 770) drawable=(2736, 1540)
 Maximum texture size: 4096x4096
-Could not open 'cache/shaders.txt':
+Cleaning stores took 0 ms
+Load screen analysis took 14 ms
+Analyze screens took 0 ms
+Running _start took 1 ms

@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 65: expected statement.
+    "Could the game have shut down?":
+                                    ^
+
+File "game/script.rpy", line 68: expected statement.
+    "That's so weird...":
+                        ^
+
+Ren'Py Version: Ren'Py 8.4.1.25072401
+Sat Mar 21 16:30:30 2026

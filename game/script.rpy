@@ -5,6 +5,7 @@
 
 define l = Character("Lemon Block", color = "#FFEEB8")
 define pov = Character("[povname]", color = "#00FFFF")
+define p = Character("Player")
 
 transform smallright:
     zoom 0.3
@@ -69,12 +70,75 @@ label start:
             pov "That's so weird..."
             l "I know, right? Even when the system shuts down, like when the players end the hame, a safe haven would appear for us NPCs to stay."
 
+    scene color
+    with fade
     l "I think once my ancestors told me that we can't stay in here for too long, or else we will be erased!"
-    l "Usually, every time a player tries to quit, the system alerts us to head to a safe haven, so we've always been in the safe haven before the game shuts down."
+    scene door 
+    with fade
+    l "Usually, every time a player tries to quit, the system alerts us to head to a safe haven, a door would appear, so we've always been in the safe haven before the game shuts down."
+    scene dark 
+    with fade
     l "I've never experienced anything like this before..."
-
-
-
+    l "What we can do is to look around and see if we can find a way out of here."
+    pov "Wait! What's that over there?"
+    scene line
+    with fade
+    play music "freesound_community-echo-55417.mp3"
+    l "Oh! The computer screen is still on!"
+    l "This means the players haven't exited the game!"
+    l "It seems like... well, the wifi might be disconnected..." 
+    l "Quick, we have to go to the lit-up spot! We can't stay in the dark!"
+    l "Tell everyone to go there! We can wait till the wifi reconnects!"
+    scene come 
+    with fade   
+    play music "jobisahealer-run-487747.mp3" fadein 0.5
+    l "Everyone, quick, come with me!"
+    scene black 
+    with fade
+    play sound "km007-chase-running-9109.mp3" volume 3.5
+    pause 3.5
+    scene more
+    with fade
+    show lb at smallright
+    with moveinright
+    l "Phew... at least everyone's safe for now..."
+    scene moment
+    with fade
+    stop music fadeout 0.6
+    play sound "later.mp3"
+    pause 4.5
+    play music "cartoon-funny-462261.mp3" fadein 1.0
+    scene wifi
+    with fade
+    show notice at smallright
+    with moveinright
+    p "Shoot! Why is the wifi connecting so slow? I can't connect to the game!"
+    p "Let me try connecting again and see if it works..."
+    hide notice with moveoutright
+    pause 2.0
+    play sound "ding-402325.mp3" volume 4.0
+    show notice at smallright
+    with moveinright
+    p "Done!"
+    p "Yeah! I'm back online!"
+    p "Wait... why are my NPCs all gathered together?"
+    p "I don't think this is part of the NPCs' game settings..."
+    p "Well, nevermind... Hehe can't wait to keep playing the game!!!"
+    scene more 
+    with fade
+    show lb at smallright
+    with dissolve
+    l "Phew... good thing he didn't doubt us..."
+    scene cheer
+    with fade
+    play music "soulfuljamtracks-happy-happy-happy-500010.mp3" fadein 1.0
+    play sound "driken5482-applause-cheer-236786.mp3"
+    l "Yeah! Wifi is back and we're all still safe!"
+    l "What a happy ending to this unexpected experience!"
+    l "It was a close one... we need to be more careful in the future..."
+    l "Can't let the players notice that we have consciousness."
+    l "Anyway, everything's back to normal now, and the wifi has been reconnected, so all good!"
+    stop music fadeout 2.5
 
 
     

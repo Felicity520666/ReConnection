@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 65: expected statement.
-    "Could the game have shut down?":
-                                    ^
-
-File "game/script.rpy", line 68: expected statement.
-    "That's so weird...":
-                        ^
+File "game/script.rpy", line 93: end of line expected.
+    music "jobisahealer-run-487747.mp3" fadein 0.5
+                                        ^
 
 Ren'Py Version: Ren'Py 8.4.1.25072401
-Sat Mar 21 16:30:30 2026
+Wed Mar 25 18:33:19 2026

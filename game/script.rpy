@@ -60,15 +60,15 @@ label start:
     scene dark
     with dissolve
     l "I'm here! But... huh... I actually have no idea what's going on either..."
-    l "I've been in this game for soooo long, and nothing like this has ever has ever happened!"
+    l "I've been in this game for soooo long, and nothing like this has ever happened!"
     menu:
         "How do you pick up from there?"
         "Could the game have shut down?":
             pov "Could the game have shut down?"
-            l "Hmm... but even when the players end the game after they play, a safe haven would appear for us NPCs to stay."
+            l "Hmm... maybe? But even when the players end the game after they play, a safe haven would appear for us NPCs to stay."
         "That's so weird...":
             pov "That's so weird..."
-            l "I know, right? Even when the system shuts down, like when the players end the hame, a safe haven would appear for us NPCs to stay."
+            l "I know, right? Even when the system shuts down, like when the players end the game, a safe haven would appear for us NPCs to stay."
 
     scene color
     with fade

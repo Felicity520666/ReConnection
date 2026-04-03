@@ -70,6 +70,7 @@ label start:
             pov "That's so weird..."
             l "I know, right? Even when the system shuts down, like when the players end the game, a safe haven would appear for us NPCs to stay."
 
+    play sound "unstable.mp3"
     scene color
     with fade
     l "I think once my ancestors told me that we can't stay in here for too long, or else we will be erased!"
@@ -108,21 +109,25 @@ label start:
     play sound "later.mp3"
     pause 4.5
     play music "cartoon-funny-462261.mp3" fadein 1.0
-    scene wifi
+    scene cc
     with fade
-    show notice at smallright
+    show player notice at smallright
     with moveinright
     p "Shoot! Why is the wifi connecting so slow? I can't connect to the game!"
     p "Let me try connecting again and see if it works..."
-    hide notice with moveoutright
+    hide player notice with moveoutright
     pause 2.0
     play sound "ding-402325.mp3" volume 4.0
-    show notice at smallright
+    show player happy at smallright
     with moveinright
     p "Done!"
     p "Yeah! I'm back online!"
+    show player confused at smallright
+    with dissolve
     p "Wait... why are my NPCs all gathered together?"
     p "I don't think this is part of the NPCs' game settings..."
+    show player happy at smallright
+    with dissolve
     p "Well, nevermind... Hehe can't wait to keep playing the game!!!"
     scene more 
     with fade
